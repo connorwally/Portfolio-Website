@@ -22,7 +22,7 @@ import PPOAlgorithmImage from "@/assets/icons/PPOAlgorithm.png";
 import UniversityProjectImage from "@/assets/icons/UniversityProject.png";
 import CNNPolicyImage from "@/assets/icons/CNNPolicy.png";
 
-import UMMORPGImage from "@/assets/icons/uMMORPG.png";
+import UMMORPGImage from "@/assets/icons/UMMORPG.png";
 import EarlyInImage from "@/assets/icons/EarlyIn.png";
 import NetworkingImage from "@/assets/icons/Networking.png";
 
