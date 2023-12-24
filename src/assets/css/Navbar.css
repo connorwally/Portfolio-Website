@@ -1,0 +1,189 @@
+/*
+######   Navbar Styling   ######
+*/
+
+.wally-games-navbar {
+  width: 100%;
+  height: 66px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3.5px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wally-games-navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.wally-games-navbar ul a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Left Side */
+
+.wally-games-navbar .nav-left {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  left: 105px;
+}
+
+.wally-games-navbar .nav-left .logo {
+  width: 46px;
+  height: 46px;
+  -ms-transform: translateY(5%);
+  transform: translateY(5%);
+}
+
+.wally-games-navbar .nav-left hr {
+  border: none;
+  height: 2px;
+  rotate: 90deg;
+  width: 46px;
+  background-color: rgba(60, 62, 64, 1);
+  position: relative;
+  left: -30%;
+}
+
+.wally-games-navbar .nav-left h3 {
+  position: relative;
+  left: -40%;
+  text-align: left;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  color: white;
+}
+
+/* Right Side */
+
+.wally-games-navbar .nav-right {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  right: 105px;
+}
+
+.wally-games-navbar .nav-right hr {
+  border: none;
+  height: 2px;
+  rotate: 90deg;
+  width: 20px;
+  background-color: rgba(60, 62, 64, 1);
+}
+
+.wally-games-navbar .nav-right a {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 10px;
+}
+
+.wally-games-navbar .nav-right .menu-item {
+  display: none;
+}
+
+.nav-right-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .wally-games-navbar {
+    width: 100vw;
+    height: 10%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3.5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .wally-games-navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .wally-games-navbar ul a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Left Side */
+
+  .wally-games-navbar .nav-left {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    left: 2%;
+    top: 5%;
+  }
+
+  .wally-games-navbar .nav-left .logo {
+    width: 40px;
+    height: 40px;
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+  }
+
+  .wally-games-navbar .nav-left hr {
+    border: none;
+    height: 2px;
+    rotate: 90deg;
+    width: 40px;
+    background-color: rgba(60, 62, 64, 1);
+    position: relative;
+    left: -30%;
+  }
+
+  .wally-games-navbar .nav-left h3 {
+    position: relative;
+    left: -25%;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    color: white;
+  }
+
+  .wally-games-navbar .nav-right {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    right: 3%;
+  }
+
+  .wally-games-navbar .nav-right a {
+    display: none;
+  }
+
+  .wally-games-navbar .nav-right hr {
+    display: none;
+  }
+  .wally-games-navbar .nav-right .menu-item {
+    display: none;
+  }
+  .wally-games-navbar .nav-right .menu-item .menu {
+    width: 30px;
+  }
+}
