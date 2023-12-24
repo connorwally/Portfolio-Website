@@ -3,8 +3,6 @@ import HomePage from './components/HomePage'
 import AboutPage from './components/AboutPage'
 import ProjectsPage from './components/ProjectsPage'
 import ContactPage from './components/ContactPage'
-import FixedLinksTop from './components/FixedLinksTop'
-import FixedLinksBottom from './components/FixedLinksBottom'
 import './App.css'
 import React from 'react';
 

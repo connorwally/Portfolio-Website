@@ -2,6 +2,13 @@ import React, { useState, useEffect } from "react";
 import InfoBar from "./InfoBar";
 import BarLoader from "react-spinners/BarLoader";
 
+// Im not sure if imports will work for the infoBar, but lets see.
+import JavaImage from "@/assets/icons/Java.png";
+import PythonImage from "@/assets/icons/Python.png";
+import CSSImage from "@/assets/icons/css.png";
+import CSharpImage from "@/assets/icons/CSHARP.png";
+import ReactImage from "@/assets/icons/react.png";
+
 export default function AboutContent(){
 
     const [infoBars, setInfoBars] = useState([
@@ -67,11 +74,11 @@ export default function AboutContent(){
             <p className='about-text'>It's my <span className='about-span'>dream</span> to create  <span className='about-span'>innovative</span> software for people across the world.</p>
             <hr className='small-hr'></hr>
             <div className='about-images-container'>
-                <div className='item'><img src='.\src\assets\icons\Java.png'></img> <p>Java</p></div>
-                <div className='item'><img src='.\src\assets\icons\Python.png'></img> <p>Python</p></div>
-                <div className='item'><img src='.\src\assets\icons\css.png'></img><p>CSS</p></div>
-                <div className='item'><img src='.\src\assets\icons\CSHARP.png'></img><p>C#</p></div>
-                <div className='item'><img src='.\src\assets\icons\react.png'></img><p>React</p></div>
+                <div className='item'><img src={JavaImage}></img> <p>Java</p></div>
+                <div className='item'><img src={PythonImage}></img> <p>Python</p></div>
+                <div className='item'><img src={CSSImage}></img><p>CSS</p></div>
+                <div className='item'><img src={CSharpImage}></img><p>C#</p></div>
+                <div className='item'><img src={ReactImage}></img><p>React</p></div>
             </div>
             <hr className='small-hr'></hr>
             <InfoBar {...infoBars[infoBarIndex]} />

@@ -1,5 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import '../assets/css/HomePage.css';
+import Background1 from "@/assets/background/1.png";
+import Background2 from "@/assets/background/2.png";
+import Background3 from "@/assets/background/3.png";
+import Background4 from "@/assets/background/4.png";
+import Background5 from "@/assets/background/5.png";
+
+import SmokeInFrontImage2 from "@/assets/background/2smokeinfront.png";
+import MoonImage from "@/assets/background/moon.png";
+import Smoke3 from "@/assets/background/3smoke.png";
+import Smoke4 from "@/assets/background/4smoke.png";
+import Smoke5 from "@/assets/background/5smoke.png";
+
+import MobileBackgroundImage from "@/assets/images/mobile-background.png"
 
 const HomePage = () => {
   const[xValue, setYValue] = useState(0);
@@ -35,25 +48,25 @@ const HomePage = () => {
     <div className="homepage">
       <div className="wally-games-opening-parallax">
         <img
-          src="./src/assets/background/1.png"
+          src={Background1}
           className="background-1"
           data-speedx="0"
           data-speedy="0"
         />
         <img
-          src="./src/assets/background/2.png"
+          src={Background2}
           className="parallax background-2"
           data-speedx="0.1"
           data-speedy="0"
         />
         <img
-          src="./src/assets/background/2smokeinfront.png"
+          src={SmokeInFrontImage2}
           className="background-smoke-1 parallax"
           data-speedx="0"
           data-speedy="0"
         />
         <img
-          src="./src/assets/background/moon.png"
+          src={MoonImage}
           className="parallax background-3"
           id="test"
           data-speedx="0.065"
@@ -65,37 +78,37 @@ const HomePage = () => {
           <h2>GAME AND SOFTWARE DEV</h2>
         </div>
         <img
-          src="./src/assets/background/3smoke.png"
+          src={Smoke3}
           className="background-smoke-2 parallax"
           data-speedx="0.06"
           data-speedy="0"
         />
         <img
-          src="./src/assets/background/3.png"
+          src={Background3}
           className="parallax background-4"
           data-speedx="0.05"
           data-speedy="0"
         />
         <img
-          src="./src/assets/background/4smoke.png"
+          src={Smoke4}
           className="background-smoke-3 parallax"
           data-speedx="0.15"
           data-speedy="0"
         />
         <img
-          src="./src/assets/background/4.png"
+          src={Background4}
           className="parallax background-5"
           data-speedx="0.0325"
           data-speedy="0"
         />
         <img
-          src="./src/assets/background/5smoke.png"
+          src={Smoke5}
           className="background-smoke-4 parallax"
           data-speedx="0.1"
           data-speedy="0"
         />
         <img
-          src="./src/assets/background/5.png"
+          src={Background5}
           className="parallax background-6"
           data-speedx="0.025"
           data-speedy="0"
@@ -104,7 +117,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="home-page-mobile">
-        <img className="background-image" src='.\src\assets\images\mobile-background.png'></img>
+        <img className="background-image" src={MobileBackgroundImage}></img>
         <div className='info-panel'>
           <h5 className='title'>CONNOR WALLIS</h5>
           <hr className="title-hr"></hr>

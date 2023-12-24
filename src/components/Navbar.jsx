@@ -1,5 +1,8 @@
 import "../assets/css/Navbar.css";
 
+import LogoImage from "@/assets/images/logo.png";
+import MenuSelectorImage from "@/assets/icons/menu-selector.png"
+
 export default function Navbar() {
   return (
     <nav className="wally-games-navbar">
@@ -8,7 +11,7 @@ export default function Navbar() {
           <li>
             <img
               id="logo"
-              src="./src/assets/images/logo.png"
+              src={LogoImage}
               alt="Wally Games"
               className="logo"
             ></img>
@@ -49,7 +52,7 @@ export default function Navbar() {
             <a href="#contact">CONTACT</a>
           </li>
           <li className="menu-item">
-            <img src="./src/assets/icons/menu-selector.png" alt="Menu" className="menu" />
+            <img src={MenuSelectorImage} alt="Menu" className="menu" />
           </li>
         </ul>
       </div>

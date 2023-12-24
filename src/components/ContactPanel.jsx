@@ -1,7 +1,9 @@
 import '../assets/css/Contact.css'
 import React, {useRef, useState} from 'react';
 import BarLoader from "react-spinners/BarLoader";
-import FixedLinksBottom from './FixedLinksBottom';
+import MoonImage from "@/assets/images/MoonGraphic.png"
+import LinkedInImage from "@/assets/icons/LinkedIn.png"
+import GithubImage from "@/assets/icons/Github.png"
 
 export default function ContactPanel(){   
     
@@ -30,7 +32,7 @@ export default function ContactPanel(){
     return(
         <div className="contact-panel">
             <div className="left-panel">
-                <img className='moon' src='.\src\assets\images\MoonGraphic.png'/>
+                <img className='moon' src={MoonImage}/>
                 <div className="text">
                     <div className="left">
                         <p >Enquire about anything</p>
@@ -62,8 +64,8 @@ export default function ContactPanel(){
                         {submitting && !loading && <div className="submitted"><p>Sent!</p></div>}
                     </div>
                     <div className="links">
-                        <a href="https://www.linkedin.com/in/connor-wallis/" target="_blank"><img className='linkedin link' src='.\src\assets\icons\LinkedIn.png'/></a>
-                        <a href="https://github.com/connorwally" target="_blank"><img className='github link' src='.\src\assets\icons\Github.png'/></a></div>
+                        <a href="https://www.linkedin.com/in/connor-wallis/" target="_blank"><img className='linkedin link' src={LinkedInImage}/></a>
+                        <a href="https://github.com/connorwally" target="_blank"><img className='github link' src={GithubImage}/></a></div>
                 </form>
             </div>
         </div>

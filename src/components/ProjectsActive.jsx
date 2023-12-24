@@ -1,6 +1,12 @@
 import InfoBar from "./InfoBar";
 import ProjectView from "./ProjectView";
 
+import MinecraftRPGImage from "@/assets/images/ProjectActiveImage.png"
+import ReactCodingImage from "@/assets/images/ReactCodingImage.png"
+import MarioAIImage from "@/assets/images/MarioAIImage.png"
+import UnityMMOImage from "@/assets/images/UnityMMOMap.png"
+import ChatGPTImage from "@/assets/images/ChatGPTCloneWebsite.png"
+
 export default function ProjectsActive({activeProject}){
     
     const activeProjectID = activeProject;
@@ -176,27 +182,27 @@ export default function ProjectsActive({activeProject}){
             <div className="activeProjectImage">
             {activeProjectID == 0 && 
             <div className='image'>
-                <img src='.\src\assets\images\ProjectActiveImage.png' alt="" />
+                <img src={MinecraftRPGImage} alt="" />
             </div>}
 
             {activeProjectID == 1 && 
             <div className='image'>
-                <img src='.\src\assets\images\ReactCodingImage.png' alt="" />
+                <img src={ReactCodingImage} alt="" />
             </div>}
 
             {activeProjectID == 2 && 
             <div className='image'>
-                <img src='.\src\assets\images\MarioAIImage.png' alt="" />
+                <img src={MarioAIImage} alt="" />
             </div>}
 
             {activeProjectID == 3 && 
             <div className='image'>
-                <img src='.\src\assets\images\UnityMMOMap.png' alt="" />
+                <img src={UnityMMOImage} alt="" />
             </div>}
 
             {activeProjectID == 4 && 
             <div className='image'>
-                <img src='.\src\assets\images\ChatGPTCloneWebsite.png' alt="" />
+                <img src={ChatGPTImage} alt="" />
             </div>}
             </div>
 
