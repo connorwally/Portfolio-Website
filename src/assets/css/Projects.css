@@ -1,0 +1,183 @@
+.wally-games-projects {
+  top: 200vh;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.projects-panel {
+  position: relative;
+  width: 90%;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.active-project {
+  width: 1064px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.active-project .activeProjectImage {
+  margin: 8px 8px 0 0;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.active-project .info-bar {
+  width: 300px;
+  margin: 2px 0 10px 0;
+}
+
+.active-project p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%;
+  width: 550px;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 76px;
+  align-items: center;
+  margin: 10px;
+}
+
+.project-bar .arrow {
+  width: 35px;
+  height: 38px;
+  margin: 0 0 0 20px;
+}
+
+.project-bar .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.project-bar .info .text {
+  text-align: right;
+  padding: 0 1rem 0 0;
+}
+
+.project-bar .info .text p {
+  color: #fff;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 200%;
+  font-style: normal;
+  font-weight: 275;
+  line-height: 50%;
+  letter-spacing: 0.62px;
+}
+
+.project-bar .info .text h2 {
+  color: #fff;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 230%;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.projects-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .projects-panel {
+    width: 90%;
+    left: 5%;
+    justify-content: space-between;
+  }
+
+  .active-project {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .active-project .activeProjectImage {
+    visibility: hidden;
+  }
+
+  .projects-list .image {
+    width: 75px;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .projects-list .arrow {
+    visibility: hidden;
+    width: 0;
+    margin: 0;
+  }
+
+  .projects-list .text {
+    visibility: hidden;
+    width: 0;
+  }
+
+  .projects-list .info {
+    height: 75px;
+  }
+
+  .projects-list hr {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .projects-list {
+    display: none;
+  }
+
+  .active-project {
+    display: none;
+  }
+
+  .wally-games-projects {
+    top: 200vh;
+    height: 200vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .projects-mobile {
+    display: block;
+  }
+}
