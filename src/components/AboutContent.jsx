@@ -4,7 +4,7 @@ import BarLoader from "react-spinners/BarLoader";
 
 // Im not sure if imports will work for the infoBar, but lets see.
 import MusicImage from "@/assets/icons/Music.png";
-import ControllerImage from "@/assets/icons/Controller.png";
+import ControllerImage from "@/assets/icons/controller.png";
 import HomeImage from "@/assets/icons/home.png";
 import UniversityProjectImage from "@/assets/icons/universityproject.png";
 import CoffeeImage from "@/assets/icons/Coffee.png";
@@ -74,7 +74,7 @@ export default function AboutContent(){
 
     return(
         <div className="about-content">
-            <h1>ABOUT</h1>
+            <h1>ABOUT</h1> 
             <hr className='small-hr'></hr>
             <p className='about-text'>I'm an <span className='about-span'>emerging</span> software engineer from <span className='about-span'>Australia</span>.</p>
             <br></br>
