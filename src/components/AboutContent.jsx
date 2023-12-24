@@ -4,17 +4,17 @@ import BarLoader from "react-spinners/BarLoader";
 
 // Im not sure if imports will work for the infoBar, but lets see.
 import MusicImage from "@/assets/icons/Music.png";
-import ControllerImage from "@/assets/icons/controller.png";
-import HomeImage from "@/assets/icons/home.png";
-import UniversityProjectImage from "@/assets/icons/universityproject.png";
+import ControllerImage from "@/assets/icons/Controller.png";
+import HomeImage from "@/assets/icons/Home.png";
+import UniversityProjectImage from "@/assets/icons/UniversityProject";
 import CoffeeImage from "@/assets/icons/Coffee.png";
 import CakeImage from "@/assets/icons/Cake.png";
 
 import JavaImage from "@/assets/icons/Java.png";
 import PythonImage from "@/assets/icons/Python.png";
-import CSSImage from "@/assets/icons/css.png";
-import CSharpImage from "@/assets/icons/CSHARP.png";
-import ReactImage from "@/assets/icons/react.png";
+import CSSImage from "@/assets/icons/CSS.png";
+import CSharpImage from "@/assets/icons/CSharp.png";
+import ReactImage from "@/assets/icons/React.png";
 
 export default function AboutContent(){
 
