@@ -1,7 +1,7 @@
 import "../assets/css/Navbar.css";
 
 import LogoImage from "@/assets/images/logo.png";
-import MenuSelectorImage from "@/assets/icons/Menu-Selector.png"
+import MenuSelectorImage from "@/assets/icons/menu-selector.png"
 
 export default function Navbar() {
   return (
