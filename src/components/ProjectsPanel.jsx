@@ -4,15 +4,15 @@ import ProjectViewMobile from "./ProjectViewMobile";
 import React, {useState} from 'react';
 
 import MinecraftImage from "@/assets/icons/Minecraft.png";
-import ReactImage from "@/assets/icons/Reactlogo.png";
+import ReactImage from "@/assets/icons/ReactLogo.png";
 import MarioImage from "@/assets/icons/Mario.png";
-import UnityImage from "@/assets/icons/unity.png";
-import ChatGPTImage from "@/assets/icons/chatgpt.png";
+import UnityImage from "@/assets/icons/Unity.png";
+import ChatGPTImage from "@/assets/icons/ChatGPT.png";
 
-import MinecraftRedImage from "@/assets/icons/minecraft_red.png";
+import MinecraftRedImage from "@/assets/icons/Minecraft_Red.png";
 import ReactRedImage from "@/assets/icons/React.png";
 import PythonRedImage from "@/assets/icons/Python.png";
-import CSharpImage from "@/assets/icons/CSHARP.png";
+import CSharpImage from "@/assets/icons/CSharp.png";
 import CSSImage from "@/assets/icons/CSS.png";
 
 
