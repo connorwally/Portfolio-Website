@@ -6,7 +6,7 @@ import BarLoader from "react-spinners/BarLoader";
 import MusicImage from "@/assets/icons/Music.png";
 import ControllerImage from "@/assets/icons/Controller.png";
 import HomeImage from "@/assets/icons/Home.png";
-import UniversityProjectImage from "@/assets/icons/UniversityProject";
+import UniversityProjectImage from "@/assets/icons/UniversityProject.png";
 import CoffeeImage from "@/assets/icons/Coffee.png";
 import CakeImage from "@/assets/icons/Cake.png";
 
