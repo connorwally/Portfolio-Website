@@ -3,6 +3,13 @@ import InfoBar from "./InfoBar";
 import BarLoader from "react-spinners/BarLoader";
 
 // Im not sure if imports will work for the infoBar, but lets see.
+import MusicImage from "@/assets/icons/Music.png";
+import ControllerImage from "@/assets/icons/Controller.png";
+import HomeImage from "@/assets/icons/home.png";
+import UniversityProjectImage from "@/assets/icons/universityproject.png";
+import CoffeeImage from "@/assets/icons/Coffee.png";
+import CakeImage from "@/assets/icons/Cake.png";
+
 import JavaImage from "@/assets/icons/Java.png";
 import PythonImage from "@/assets/icons/Python.png";
 import CSSImage from "@/assets/icons/css.png";
@@ -13,37 +20,37 @@ export default function AboutContent(){
 
     const [infoBars, setInfoBars] = useState([
         {
-        imageLink: './src/assets/icons/Music.png',
+        imageLink: MusicImage,
         altText: 'A musical note',
         Text: 'Fav. Music',
         Subtext: 'Drum & Bass + Rap',
         },
         {
-        imageLink: './src/assets/icons/controller.png',
+        imageLink: ControllerImage,
         altText: 'A controller',
         Text: 'Fav. Games',
         Subtext: 'Minecraft + Overwatch',
         },
         {
-        imageLink: './src/assets/icons/home.png',
+        imageLink: HomeImage,
         altText: 'A house',
         Text: 'I\'m from',
         Subtext: 'Perth, Australia',
         },
         {
-        imageLink: './src/assets/icons/universityproject.png',
+        imageLink: UniversityProjectImage,
         altText: 'An open book',
         Text: 'Studying',
         Subtext: 'Computer Science at UWA',
         },
         {
-        imageLink: './src/assets/icons/coffee.png',
+        imageLink: CoffeeImage,
         altText: 'A coffee',
         Text: 'Addicted',
         Subtext: 'to Caffeine',
         },
         {
-        imageLink: './src/assets/icons/cake.png',
+        imageLink: CakeImage,
         altText: 'A cake',
         Text: '23',
         Subtext: 'Years Old',

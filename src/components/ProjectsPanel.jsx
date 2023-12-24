@@ -3,6 +3,19 @@ import ProjectBar from "./ProjectBar";
 import ProjectViewMobile from "./ProjectViewMobile";
 import React, {useState} from 'react';
 
+import MinecraftImage from "@/assets/icons/minecraft.png";
+import ReactImage from "@/assets/icons/reactlogo.png";
+import MarioImage from "@/assets/icons/mario.png";
+import UnityImage from "@/assets/icons/unity.png";
+import ChatGPTImage from "@/assets/icons/chatgpt.png";
+
+import MinecraftRedImage from "@/assets/icons/minecraft_red.png";
+import ReactRedImage from "@/assets/icons/React.png";
+import PythonRedImage from "@/assets/icons/Python.png";
+import CSharpImage from "@/assets/icons/CSHARP.png";
+import CSSImage from "@/assets/icons/CSS.png";
+
+
 
 
 export default function ProjectsPanel(){
@@ -32,7 +45,7 @@ export default function ProjectsPanel(){
             <div className='projects-list'>
                 <ProjectBar 
                 className='project-bar'
-                imageLink='.\src\assets\icons\minecraft.png'
+                imageLink={MinecraftImage}
                 altText='Minecraft Logo'
                 Text='MINECRAFT RPG'
                 Subtext='Java Project'
@@ -45,7 +58,7 @@ export default function ProjectsPanel(){
                 <ProjectBar
                 id='1'
                 className='project-bar'
-                imageLink='.\src\assets\icons\reactlogo.png'
+                imageLink={ReactImage}
                 altText='React Logo'
                 Text='PORTFOLIO WEBSITE'
                 Subtext='React + Node'
@@ -58,7 +71,7 @@ export default function ProjectsPanel(){
                 <ProjectBar
                 id='2'
                 className='project-bar'
-                imageLink='.\src\assets\icons\mario.png'
+                imageLink={MarioImage}
                 altText='Mario Sprite'
                 Text='DEEP LEARNING AI'
                 Subtext='Python + SB3'
@@ -71,7 +84,7 @@ export default function ProjectsPanel(){
                 <ProjectBar
                 id='3'
                 className='project-bar'
-                imageLink='.\src\assets\icons\unity.png'
+                imageLink={UnityImage}
                 altText='Unity Logo'
                 Text='UNITY MMORPG'
                 Subtext='C# + Mirror'
@@ -84,7 +97,7 @@ export default function ProjectsPanel(){
                 <ProjectBar
                 id='4'
                 className='project-bar'
-                imageLink='.\src\assets\icons\chatgpt.png'
+                imageLink={ChatGPTImage}
                 altText='ChatGPT Logo'
                 Text='CHATGPT CLONE'
                 Subtext='CSS + Mirror'
@@ -99,31 +112,31 @@ export default function ProjectsPanel(){
                 title='MINECRAFT RPG'
                 tools='Java'
                 text='I extensively modded Minecraft using the Bukkit and PaperSpigot API’s to create a multiplayer RPG experience.'
-                imageLink='.\src\assets\icons\minecraft_red.png'
+                imageLink={MinecraftRedImage}
                 />
                 <ProjectViewMobile
                 title='PORTFOLIO SITE'
                 tools='React'
                 text='I built this website as a step into web development. I utilised AI tools such as Midjourney to create the graphics and Figma for the UI/UX.'
-                imageLink='.\src\assets\icons\React.png'
+                imageLink={ReactRedImage}
                 />
                 <ProjectViewMobile
                 title='DEEP LEARNING AI'
                 tools='Python'
                 text='I built a reinforcement learning agent using PPO from Stable Baselines3. The agent was trained on Super Mario Bros. gym and had great results.'
-                imageLink='.\src\assets\icons\Python.png'
+                imageLink={PythonRedImage}
                 />
                 <ProjectViewMobile
                 title='UNITY MMO'
                 tools='C#'
                 text='I’m currently developing a 2D MMORPG game in Unity using the Mirror networking framework.'
-                imageLink='.\src\assets\icons\CSHARP.png'
+                imageLink={CSharpImage}
                 />
                 <ProjectViewMobile
                 title='CHATGPT CLONE'
                 tools='CSS'
                 text='My university project group were tasked with creating a clone of the AI chatbot ChatGPT. We used HTML, CSS, Flask and MySQL to achieve this.'
-                imageLink='.\src\assets\icons\CSS.png'
+                imageLink={CSSImage}
                 />
             </div>
         </div>

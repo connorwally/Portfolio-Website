@@ -7,6 +7,29 @@ import MarioAIImage from "@/assets/images/MarioAIImage.png"
 import UnityMMOImage from "@/assets/images/UnityMMOMap.png"
 import ChatGPTImage from "@/assets/images/ChatGPTCloneWebsite.png"
 
+import SwordImage from "@/assets/icons/Sword.png";
+import ShieldImage from "@/assets/icons/Shield.png";
+import HourglassImage from "@/assets/icons/Hourglass.png";
+import CompletionCircleImage from "@/assets/icons/CompletionCircle.png";
+
+import SummerImage from "@/assets/icons/Summer.png";
+import PaintbrushImage from "@/assets/icons/Paintbrush.png";
+import ImageEditingImage from "@/assets/icons/ImageEditing.png";
+import ParallaxImage from "@/assets/icons/Parallax.png";
+
+import CheckmarkImage from "@/assets/icons/Checkmark.png";
+import PPOAlgorithmImage from "@/assets/icons/PPOAlgorithm.png";
+import UniversityProjectImage from "@/assets/icons/UniversityProject.png";
+import CNNPolicyImage from "@/assets/icons/CNNPolicy.png";
+
+import UMMORPGImage from "@/assets/icons/uMMORPG.png";
+import EarlyInImage from "@/assets/icons/EarlyIn.png";
+import NetworkingImage from "@/assets/icons/Networking.png";
+
+import Python50Image from "@/assets/icons/Python50.png";
+import JS50Image from "@/assets/icons/JS50.png";
+import APIImage from "@/assets/icons/API.png";
+
 export default function ProjectsActive({activeProject}){
     
     const activeProjectID = activeProject;
@@ -20,25 +43,25 @@ export default function ProjectsActive({activeProject}){
                 text='I am building a fully fledged RPG Minecraft server with classes, dungeons, base-upgrading, quests and much more.'
                 >
                 <InfoBar
-                    imageLink='.\src\assets\icons\Sword.png'
+                    imageLink={SwordImage}
                     altText='Image of a sword'
                     Text='4 Classes'
                     Subtext='w/ Unique Spells'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\Shield.png'
+                    imageLink={ShieldImage}
                     altText='Image of a shield'
                     Text='100+'
                     Subtext='Custom Items'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\Hourglass.png'
+                    imageLink={HourglassImage}
                     altText='Image of an hourglass'
                     Text='1000+'
                     Subtext='Hours of Work'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\CompletionCircle.png'
+                    imageLink={CompletionCircleImage}
                     altText='Image of a circle indicating completion'
                     Text='80%'
                     Subtext='Complete'
@@ -54,25 +77,25 @@ export default function ProjectsActive({activeProject}){
                 text='I built this website as my step into the world of React and Node. I also wanted to trial some new AI tools such as ChatGPT and Github Copilot.'
                 >
                 <InfoBar
-                    imageLink='.\src\assets\icons\Summer.png'
+                    imageLink={SummerImage}
                     altText='Image of a sun'
                     Text='A summer'
                     Subtext='React Project'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\Paintbrush.png'
+                    imageLink={PaintbrushImage}
                     altText='Image of a paintbrush'
                     Text='Figma'
                     Subtext='Designed'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\ImageEditing.png'
+                    imageLink={ImageEditingImage}
                     altText='Image of an image'
                     Text='Image'
                     Subtext='Editing'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\Parallax.png'
+                    imageLink={ParallaxImage}
                     altText='Image of some codes'
                     Text='Parallax'
                     Subtext='Done by hand'
@@ -88,25 +111,25 @@ export default function ProjectsActive({activeProject}){
                 text='I built a reinforcement learning agent using PPO from Stable Baselines3. The agent was trained on Super Mario Bros. gym and had great results.'
                 >
                 <InfoBar
-                    imageLink='.\src\assets\icons\Checkmark.png'
+                    imageLink={CheckmarkImage}
                     altText='Image of a checkmark'
                     Text='Completes'
                     Subtext='World 1-1+'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\PPOAlgorithm.png'
+                    imageLink={PPOAlgorithmImage}
                     altText='Image of a brain and a cog wheel'
                     Text='PPO'
                     Subtext='Algorithm'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\UniversityProject.png'
+                    imageLink={UniversityProjectImage}
                     altText='Image of a book'
                     Text='University'
                     Subtext='Project'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\CNNPolicy.png'
+                    imageLink={CNNPolicyImage}
                     altText='Image of a circle indicating completion'
                     Text='CNN'
                     Subtext='Policy'
@@ -121,25 +144,25 @@ export default function ProjectsActive({activeProject}){
                 text='I am currently developing a 2D MMORPG in Unity using the Mirror Networking library. More details to come as the project progresses.'
                 >
                 <InfoBar
-                    imageLink='.\src\assets\icons\uMMORPG.png'
+                    imageLink={UMMORPGImage}
                     altText='Image of a sword and shield'
                     Text='uMMORPG'
                     Subtext='Asset Pack'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\Paintbrush.png'
+                    imageLink={PaintbrushImage}
                     altText='Image of a paintbrush'
                     Text='Art by'
                     Subtext='AnalogStudios_'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\EarlyIn.png'
+                    imageLink={EarlyInImage}
                     altText='Image of a clock'
                     Text='Early in'
                     Subtext='Development'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\Networking.png'
+                    imageLink={NetworkingImage}
                     altText='Image of connection signal bars'
                     Text='Networking'
                     Subtext='With mirror'
@@ -154,25 +177,25 @@ export default function ProjectsActive({activeProject}){
                 text='My university project group were tasked with creating a clone of the AI chatbot ChatGPT. We used HTML, CSS, Flask and MySQL to achieve this.'
                 >
                 <InfoBar
-                    imageLink='.\src\assets\icons\Python50.png'
+                    imageLink={Python50Image}
                     altText='Image of python'
                     Text='Python'
                     Subtext='Backend'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\JS50.png'
+                    imageLink={JS50Image}
                     altText='Image of javascript logo'
                     Text='JS'
                     Subtext='Frontend'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\UniversityProject.png'
+                    imageLink={UniversityProjectImage}
                     altText='Image of an hourglass'
                     Text='University'
                     Subtext='Project'
                     />
                 <InfoBar
-                    imageLink='.\src\assets\icons\API.png'
+                    imageLink={APIImage}
                     altText='Image of the letters API'
                     Text='API'
                     Subtext='Usage'
