@@ -3,9 +3,9 @@ import ProjectBar from "./ProjectBar";
 import ProjectViewMobile from "./ProjectViewMobile";
 import React, {useState} from 'react';
 
-import MinecraftImage from "@/assets/icons/minecraft.png";
-import ReactImage from "@/assets/icons/reactlogo.png";
-import MarioImage from "@/assets/icons/mario.png";
+import MinecraftImage from "@/assets/icons/Minecraft.png";
+import ReactImage from "@/assets/icons/Reactlogo.png";
+import MarioImage from "@/assets/icons/Mario.png";
 import UnityImage from "@/assets/icons/unity.png";
 import ChatGPTImage from "@/assets/icons/chatgpt.png";
 
