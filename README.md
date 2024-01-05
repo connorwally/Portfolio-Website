@@ -8,3 +8,5 @@ It was a good learning experience and the key take aways are as follows:
 - Be careful using alot of animations - Will look jank on browsers without hardware acceleration
 - Don't overcomplicate divs. Remove pointless divs
 - Need to make modifications for Safari browser/test on multiple browsers
+
+[Website Link](https://connorwally.github.io/Portfolio-Website/)
